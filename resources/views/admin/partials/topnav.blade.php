@@ -40,7 +40,7 @@
     <img alt="image" src="{{ Auth::user()->avatarlink }}" class="rounded-circle mr-1">
     <div class="d-sm-none d-lg-inline-block">Hi, {{ Auth::user()->name }}</div></a>
     <div class="dropdown-menu dropdown-menu-right">
-      <div class="dropdown-title">Welcome, {{ Auth::user()->name }}</div>
+      <div class="dropdown-title">{{ Auth::user()->name }}</div>
       <a href="{{ Auth::user()->profilelink }}" class="dropdown-item has-icon">
         <i class="far fa-user"></i> Profile Settings
       </a>
