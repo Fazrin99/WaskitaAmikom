@@ -10,6 +10,7 @@ Dashboard
     <h1>Dashboard</h1>
   </div>
 
+  {{-- Menambah konten saja  --}}
 <section class="section">
           <div class="section-header">
             <h1>Top Navigation</h1>
